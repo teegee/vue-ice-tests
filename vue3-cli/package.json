@@ -1,0 +1,21 @@
+{
+  "name": "vue3-cli",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "slice": "cd src/slice; npx slice2js -I. *.ice",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "ice": "^3.7.70",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.1",
+    "@vue/cli-service": "~5.0.1",
+    "@vue/compiler-sfc": "^3.2.31",
+    "slice2js": "^3.7.7"
+  }
+}

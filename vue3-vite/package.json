@@ -1,0 +1,21 @@
+{
+  "name": "my-vue-app",
+  "version": "0.0.0",
+  "scripts": {
+    "slice": "cd src/slice; npx slice2js -I. *.ice",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "axios": "^0.26.0",
+    "ice": "^3.7.70",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "slice2js": "^3.7.7",
+    "vite": "^2.8.3"
+  }
+}
