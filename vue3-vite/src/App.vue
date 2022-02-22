@@ -8,8 +8,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
-//import {Ice} from 'ice'
-import '/node_modules/ice/lib/Ice.js'
+import {Ice} from 'ice'
 
 export default {
   components: {HelloWorld},
