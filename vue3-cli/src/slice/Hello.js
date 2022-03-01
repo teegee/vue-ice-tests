@@ -16,9 +16,7 @@
 /* eslint-disable */
 /* jshint ignore: start */
 
-import '/node_modules/ice/lib/Ice.js'
-//import { Ice } from "ice";
-
+import { Ice } from "ice";
 const _ModuleRegistry = Ice._ModuleRegistry;
 const Slice = Ice.Slice;
 

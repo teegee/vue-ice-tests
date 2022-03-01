@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.21.1",
-    "ice": "^3.7.70",
+    "ice": "^3.7.71",
     "vue": "^3.2.31"
   },
   "devDependencies": {
