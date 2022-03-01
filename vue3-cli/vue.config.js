@@ -1,8 +1,11 @@
 module.exports = {
   lintOnSave: false,
   configureWebpack: {
-    externals: {
-//      "ice": "window"
+    resolve: {
+      fallback: {
+        fs: false,
+        net: false
+      }
     }
   }
 }
