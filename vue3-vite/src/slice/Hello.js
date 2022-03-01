@@ -17,7 +17,6 @@
 /* jshint ignore: start */
 
 import { Ice } from "ice";
-
 const _ModuleRegistry = Ice._ModuleRegistry;
 const Slice = Ice.Slice;
 

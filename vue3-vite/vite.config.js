@@ -3,19 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  assetsInclude: ['**/Ice.js'],
   plugins: [
     vue()
   ],
-  build: {
-    rollupOptions: {
-      external: ['ice'],
-      output: {
-        format: 'iife',
-        globals: {
-          ice: 'ice',
-        },
-      },
-    }
-  }
 })
